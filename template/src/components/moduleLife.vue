@@ -4,7 +4,7 @@
 		<div class="title"> 
 			<span>有调生活</span>
 			<div class="other">
-				<a v-for="item in relaList" :href="item.furl" :title="item.title" target="_blank">{{item.title}}</a>
+				<a v-for="item in relaList" :href="item.furl" :title="item.title" target="_blank"></a>
 			</div>
 		</div>
 		<div class="life-main clearfix big-obj"> 
@@ -13,9 +13,9 @@
 					<a :href="item.furl" :title="item.title" target="_blank"><img v-lazy="item.rurl" width="386" height="260"></a>
 				</div>
 				<div class="desc-box">
-					<a :href="item.furl" :title="item.title" target="_blank" class="title-box ellipsis">{{item.titleName}}</a>
-					<a :href="item.furl" :title="item.title" target="_blank" class="brief-box ellipsis">{{item.brief}}</a>
-					<p class="price-box"><i>{{item.price}}元/</i>起</p>
+					<a :href="item.furl" :title="item.title" target="_blank" class="title-box ellipsis"></a>
+					<a :href="item.furl" :title="item.title" target="_blank" class="brief-box ellipsis"></a>
+					<p class="price-box"><i>元/</i>起</p>
 				</div>
 			</div> 
 		</div>
